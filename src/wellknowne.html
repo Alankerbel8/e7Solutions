@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Well Known Elements</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/navbar2.css">
+        <link rel="stylesheet" href="../css/animation.css">
+        <link rel="stylesheet" href="sonus-icons/icons.css">
+</head>
+<body>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid noPadding">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand navbar2" data-toggle="modal" data-target="#myModal"><span class="e7-icon e7-icon-bars"></span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" class="icon-gear icon--m"></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> *** The navbar on this page was replaced ***</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">ECUs</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </li>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <!-- nav lower panel -->
+  <div class="panel panel-default belownavbar2">
+    <div class="panel panel-default navbar2">
+      <div class="panel-body">
+        <ul class="pull-right top">
+          <li>ECU: ABS</li>|
+          <li>Variant: 90</li>|
+          <li>Ident: 1100</li>|
+          <li>Revision: 002</li>|
+          <li>Protocol: UDS CS-11729 Rev 1</li>|
+          <li>Status: Draft</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <!-- end of nav lower panel -->
+
+    <div class="clearfix"></div>
+
+    <!-- Modal -->
+
+    <div class="modal top" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog top">
+        <div class="modal-content top slideRight top">
+            <div class="modal-header top">
+
+            <div id="MainMenu">
+
+            <div class="list-group panel" id="flyoutmenu">
+
+            <h4>Ecus<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></h4>
+            
+            <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Overview<span class="caret" id="caret"></a>
+
+            <!-- collapse-auto -->
+
+            <div class="collapse-auto" id="demo3">
+
+            <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Details<span class="caret" id="caret"></span> <i class="fa fa-caret-down"></i></a>
+
+            <!-- collapse list-group-submenu -->
+
+            <div class="collapse list-group-submenu" id="SubMenu1">
+                <a href="#" class="list-group-item" data-parent="#SubMenu1">Example 1</a>
+                <a href="#" class="list-group-item" data-parent="#SubMenu1">Example 2</a>
+                <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Example 3<span class="caret" id="caret"><i class="fa fa-caret-down"></i></a>
+
+                <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                  <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Mini Example 1</a>
+                  <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Mini Example 2</a>
+                </div>
+
+            </div> <!-- end of collapse list-group-submenu -->
+
+            <a href="javascript:;" class="list-group-item">Conversions</a>
+            <a href="javascript:;" class="list-group-item">DTCs</a>
+            <a href="javascript:;" class="list-group-item">Services</a>
+
+            </div> <!-- end of collapse-auto -->
+
+            <a href="javascript:;" class="list-group-item list-group-item-success">Well Known Elements</a>
+
+            <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Revision History<span class="caret" id="caret"></a>
+
+            <div class="collapse-auto" id="demo4">
+                <a href="" class="list-group-item">Example 1</a>
+                <a href="" class="list-group-item">Example 2</a>
+                <a href="" class="list-group-item">Example 3</a>
+            </div>
+
+              <a href="javascript:;" class="list-group-item list-group-item-success">Well Known Elements</a>
+
+            </div> <!-- list-group panel -->
+      
+            </div> <!-- MainMenu -->
+
+          </div> <!-- end of modal-header --> 
+        </div> <!-- end of modal-content -->
+      </div> <!-- end of model-dialog -->
+    </div> <!-- end of modal -->
+
+    <!-- end of modal -->
+
+
+    <!-- BEGIN body content -->
+
+    <div class="container-fluid wke fixed-absolute">
+      <div class="row fixed-absolute">
+
+        <div class="col-sm-7 wke">
+
+        <div class="clearfix"></div>
+          
+        <div class="panel panel-default wke cuztomborder"> 
+
+          <div class="panel-header">
+
+          <nav class="navbar navbar-default wke one">
+            <div class="container-fluid">
+      
+            <div class="navbar-header">
+              <div class="navbar-brand whitetext">Well Known Elements (WKES)</div>
+            </div>
+              <div> <!-- BEGIN /.navbar-collapse -->
+                <ul class="nav navbar-nav navbar-right wke">
+                  <li><button type="button" class="btn btn-default btn-sm wke">Associate WKE</button></li>
+                  <li><a class="noPad searchico" data-toggle="modal" data-target="#searchModal"><span class="e7-icon e7-icon-search iconfifty"></span></a></li> 
+                  <li><a class="noPad refreshico" data-toggle="modal" data-target=""><span class="e7-icon e7-icon-refresh iconfifty"></span></a></li>
+                </ul>
+              </div><!-- end of /.navbar-collapse -->
+            </div><!-- end of /.container-fluid -->
+          </nav> 
+
+          </div> <!-- end of panel-header -->
+
+
+          <!-- BEGIN search Modal -->
+
+          <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header wke">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title wke" id="myModalLabel">Search</h4>
+                  <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Match Any
+                    </label>
+                    <label class="btn btn-default">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Match All
+                    </label>
+                  </div>
+                </div> <!-- end of modal-header wke -->
+
+                <div class="modal-body"> 
+                  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        wke Type
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">wke TYPE</a></li>
+                        <li><a href="#">wke</a></li>
+                        <li><a href="#">Variant</a></li>
+                        <li><a href="#">Ident</a></li>
+                        <li><a href="#">Minor</a></li>
+                        <li><a href="#">Revision</a></li>
+                        <li><a href="#">Source</a></li>
+                        <li><a href="#">Status</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        Is
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Is</a></li>
+                        <li><a href="#">Is Not</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        ABS
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ABS</a></li>
+                        <li><a href="#">ACC</a></li>
+                        <li><a href="#">ACH</a></li>
+                        <li><a href="#">ADCM</a></li>
+                        <li><a href="#">ACDC</a></li>
+                        <li><a href="#">AEHM</a></li>
+                        <li><a href="#">AFLS</a></li>
+                        <li><a href="#">AFSL</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <a href="#"><span class="e7-icon e7-icon-plus wke"></span></a>
+                        <a href="#"><span class="e7-icon e7-icon-minus wke"></span></a>
+                    </div>
+
+                  </div> <!-- end of btn-group btn-group-justified -->
+
+
+
+                  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        wke Type
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">wke TYPE</a></li>
+                        <li><a href="#">wke</a></li>
+                        <li><a href="#">Variant</a></li>
+                        <li><a href="#">Ident</a></li>
+                        <li><a href="#">Minor</a></li>
+                        <li><a href="#">Revision</a></li>
+                        <li><a href="#">Source</a></li>
+                        <li><a href="#">Status</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        Is
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Is</a></li>
+                        <li><a href="#">Is Not</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group padrightsearch" role="group">
+                      <button type="button" class="btn btn-default textleft dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        ABS
+                        <span class="caret caretpushright"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ABS</a></li>
+                        <li><a href="#">ACC</a></li>
+                        <li><a href="#">ACH</a></li>
+                        <li><a href="#">ADCM</a></li>
+                        <li><a href="#">ACDC</a></li>
+                        <li><a href="#">AEHM</a></li>
+                        <li><a href="#">AFLS</a></li>
+                        <li><a href="#">AFSL</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group" role="group">
+                        <a href="#"><span class="e7-icon e7-icon-plus wke"></span></a>
+                        <a href="#"><span class="e7-icon e7-icon-minus wke"></span></a>
+                    </div>  
+
+                  </div> <!-- end of btn-group-justified -->
+
+                </div> <!-- end of modal-body -->
+
+                <div class="modal-footer search">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Search</button>
+                </div>
+
+              </div> <!-- end of  modal-content -->
+            </div> <!-- end of  modal-dialog search -->
+          </div> <!-- end of  modal-fade --> 
+
+            <!-- end of search Modal-->
+
+          <div class="panel-body">
+            <div class="well wke backlightest">
+              Tags go here
+            </div>
+          </div>
+            <table class="table table-striped table-hover table-condensed">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>WKE</th>
+                <th>XMIT</th>
+                <th>Description</th>
+                <th>Data Element</th>
+                <th>Byte.Bit</th>
+                <th>Location</th>
+                <th>Last Modified</th>
+              </tr>
+            </thead> 
+            <tbody>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>
+              <tr>
+                <td>1000002</td>
+                <td>Original VIN</td>
+                <td>22F190</td>
+                <td>VIN Original</td>
+                <td>VIN Original</td>
+                <td>3.0</td>
+                <td>Response</td>
+                <td>2014-Oct-24</td>
+              </tr>   
+            </tbody>   
+            </table>
+
+          <div class="panel-footer wke">
+            <nav>
+              <li><button class="btn btn-default btn-sm pull-left clearfilter" type="submit">Clear Filter</button></li>
+              <ul class="pagination wke">
+                <li>
+                  <a href="#" class="e7-icon e7-icon-chevron-left-double"></a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li>
+                  <a href="#" class="e7-icon e7-icon-chevron-right-double"></a>
+                </li>
+              </ul>
+            </nav>
+          </div> <!-- panel-footer services -->
+
+        </div> <!-- end of panel panel-default wke-->
+
+        </div> <!-- end of col-sm-7 -->
+
+        <div class="col-sm-5 fixed-absolute">
+          <div class="well wke" id="content">
+            <h5>EDIT WELL KNOWN ELEMENT (WKE)</h5>
+            <h6>Select a service and click Next to view its Messages.</h6>
+          <div class="panel with-nav-tabs panel-default add-border-radius cuztomborder">
+          <div class="panel-heading">
+            <ul class="nav nav-tabs wke">
+              <h4>WKE</h4>
+            </ul>
+          </div>
+          <div class="well noMargin" id="tags">
+            Tags go here
+          </div>
+          <div class="panel-body wke">
+            <div class="tab-content">
+            <div class="panel panel-default noBorderRadius">
+
+                <div class="panel-body"></div>
+                <table class="table table-striped table-hover table-condensed">
+                <thead>
+                  <tr>
+                    <th><input type="text" placeholder="XMIT"></th>
+                    <th><input type="text" placeholder="Description"></th>
+                  </tr>
+                </thead> 
+                <tbody>
+                  <tr>
+                    <td>1906</td>
+                    <td>READ DTC Information (By DTC Number) Report All [set#593]</td>
+                  </tr>
+                  <tr>
+                    <td>1910</td>
+                    <td>Report Mirror Memory DTC Extended Data Record By DTC Number [set#593]</td>
+                  </tr>
+                  <tr>
+                    <td>220100</td>
+                    <td>Reprogramming Attempt Counter</td>
+                  </tr> 
+                  <tr>
+                    <td>220101</td>
+                    <td>Wheel information</td>
+                  </tr>    
+                </tbody>   
+                </table>
+
+                <div class="panel-footer wke">
+                  <nav>
+                    <li><button class="btn btn-default btn-sm pull-left clearfilter" type="submit">Clear Filter</button></li>
+                    <ul class="pagination wke">
+                      <li>
+                        <a href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li>
+                        <a href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div> <!-- panel-footer wke -->
+
+            </div> <!-- end of panel panel-default -->
+            </div> <!-- end of tab content -->
+          </div> <!-- end of panel-body wke -->
+          </div> <!-- end of panel with-nav-tabs panel-default -->
+
+          <div class="exampleBox">
+            * SCROLL DOWN *
+          </div>
+
+          <div class="exampleBox">
+            Lorem Ipsum
+          </div>
+
+          </div> <!-- end of well wke -->
+<div id="foot">
+            <nav class="navbar navbar-default wellfootcolor background-fixedfooter">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                    <button type="button" class="btn btn-default">Cancel</button>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div> <!-- end of col-sm-5 -->
+
+      </div> <!-- end of row -->
+    </div> <!-- end of container-fluid wke -->
+
+    <!-- end of body content -->
+
+    <!-- Apply the extra below -->
+
+    
+
+
+    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/myjquery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+td {
+	cursor: pointer;
+}
+
+.navbar-brand.navbar2 {
+    float: left;
+    padding: 10px;
+    font-size: 40px;
+    line-height: 20px;
+    position: relative;
+    top: 6px;
+}
+
+/* BEGIN nav lower panel */
+
+.panel-body {
+    padding: 0px;
+}
+
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pull-right li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* end of nav lower panel */
+
+
+/* BEGIN Modal (flyout menu) */
+
+.modal.top {
+    position: fixed;
+    top: -56px;
+    left: -25px !important;
+    z-index: 1040;
+    display: none;
+    padding-right: 792px;
+    padding-top: 100px;
+}
+
+a.navbar-brand.icon-navicon.icon--m {
+	cursor: pointer;
+}
+
+.modal.in .modal-dialog.top {
+    transform: translate(0px, 0px);
+}
+
+div.modal-dialog.top.slideRight.top {
+    margin: 0px;
+}
+
+.modal-header.top {
+    min-height: 16.4286px;
+    padding: 10px 10px 10px 21px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+div.modal-content.top {
+    border-radius: 0px;
+    width: 230px;
+    font-size: 13px;
+}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+}
+
+.modal-header.top .close {
+    margin-top: -2px;
+    color: #555;
+    opacity: 0.9;
+    position: relative;
+    top: 0px;
+}
+
+.modal-header.top .close:hover {
+    margin-top: -2px;
+    color: #222;
+    opacity: 0.9;
+}
+
+.modal-backdrop {
+    /*background: none; */
+	border: 0px solid white;
+}
+
+/* End of Modal (flyout menu) */
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #c2c2cc;
+    font-size: 17px;
+    background-color: #52525b;
+    font-family: helvetica Neue;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffd941;
+    font-size: 17px;
+    background-color: #52525b;
+    font-family: Helvetica Neue;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #52525b;
+}
+
+
+
+
+
+
+
+

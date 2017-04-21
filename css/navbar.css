@@ -1,0 +1,31 @@
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+td {
+	cursor: pointer;
+}
+
+
+/* BEGIN nav lower panel */
+
+.panel-body {
+    padding: 0px;
+}
+
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pull-right li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* end of nav lower panel */
